@@ -1,0 +1,467 @@
+<svg height="7422" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="7422" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-07 06:18:32 +0000  1274119 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 06:18:32 +0000      432 bytes  Jakefile</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 06:18:32 +0000     9018 bytes  Readme.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 06:18:32 +0000     3956 bytes  lib/index.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 06:18:32 +0000    11860 bytes  lib/minifier.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 06:18:32 +0000     3418 bytes  package.json</tspan>
+<tspan x="10" y="122">ls: cannot access test/build/apps/backbone: No such file or directory</tspan>
+<tspan x="10" y="138">ls: cannot access app/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="154">  6.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/backbone app/bundle.map.json</tspan>
+<tspan x="10" y="170">ls: cannot access test/build/apps/backbone: No such file or directory</tspan>
+<tspan x="10" y="186">ls: cannot access app/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="202">  7.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/backbone app/bundle.min.js</tspan>
+<tspan x="10" y="218">ls: cannot access test/build/apps/backbone: No such file or directory</tspan>
+<tspan x="10" y="234">ls: cannot access app/entry.js: No such file or directory</tspan>
+<tspan x="10" y="250">  8.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/backbone app/entry.js</tspan>
+<tspan x="10" y="266">ls: cannot access test/build/apps/backbone: No such file or directory</tspan>
+<tspan x="10" y="282">ls: cannot access app/index.html: No such file or directory</tspan>
+<tspan x="10" y="298">  9.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/backbone app/index.html</tspan>
+<tspan x="10" y="314">ls: cannot access test/build/apps/backbone: No such file or directory</tspan>
+<tspan x="10" y="330">ls: cannot access app/view.js: No such file or directory</tspan>
+<tspan x="10" y="346"> 10.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/backbone app/view.js</tspan>
+<tspan x="10" y="362">ls: cannot access test/build/apps/brfs: No such file or directory</tspan>
+<tspan x="10" y="378">ls: cannot access app/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="394"> 11.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/brfs app/bundle.map.json</tspan>
+<tspan x="10" y="410">ls: cannot access test/build/apps/brfs: No such file or directory</tspan>
+<tspan x="10" y="426">ls: cannot access app/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="442"> 12.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/brfs app/bundle.min.js</tspan>
+<tspan x="10" y="458">ls: cannot access test/build/apps/brfs: No such file or directory</tspan>
+<tspan x="10" y="474">ls: cannot access app/entry.js: No such file or directory</tspan>
+<tspan x="10" y="490"> 13.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/brfs app/entry.js</tspan>
+<tspan x="10" y="506">ls: cannot access test/build/apps/brfs: No such file or directory</tspan>
+<tspan x="10" y="522">ls: cannot access app/index.html: No such file or directory</tspan>
+<tspan x="10" y="538"> 14.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/brfs app/index.html</tspan>
+<tspan x="10" y="554">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="570">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="586">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="602">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="618">ls: cannot access filter/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="634"> 15.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with exclude filter\</tspan>
+<tspan x="10" y="650">/bundle.map.json</tspan>
+<tspan x="10" y="666">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="682">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="698">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="714">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="730">ls: cannot access filter/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="746"> 16.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with exclude filter\</tspan>
+<tspan x="10" y="762">/bundle.min.js</tspan>
+<tspan x="10" y="778">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="794">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="810">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="826">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="842">ls: cannot access filter/entry.js: No such file or directory</tspan>
+<tspan x="10" y="858"> 17.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with exclude filter\</tspan>
+<tspan x="10" y="874">/entry.js</tspan>
+<tspan x="10" y="890">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="906">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="922">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="938">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="954">ls: cannot access filter/index.html: No such file or directory</tspan>
+<tspan x="10" y="970"> 18.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with exclude filter\</tspan>
+<tspan x="10" y="986">/index.html</tspan>
+<tspan x="10" y="1002">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1018">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1034">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1050">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="1066">ls: cannot access filter/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="1082"> 19.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with exclude filter\</tspan>
+<tspan x="10" y="1098">/jsonthing.json</tspan>
+<tspan x="10" y="1114">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1130">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1146">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1162">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="1178">ls: cannot access filter/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="1194"> 20.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with exclude filter\</tspan>
+<tspan x="10" y="1210">/submodule.js</tspan>
+<tspan x="10" y="1226">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1242">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1258">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1274">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="1290">ls: cannot access filter/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="1306"> 21.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with exclude filter\</tspan>
+<tspan x="10" y="1322">/subsubmodule.js</tspan>
+<tspan x="10" y="1338">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1354">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1370">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1386">ls: cannot access filters/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="1402"> 22.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with filters/bundle\</tspan>
+<tspan x="10" y="1418">.map.json</tspan>
+<tspan x="10" y="1434">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1450">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1466">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1482">ls: cannot access filters/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="1498"> 23.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with filters/bundle\</tspan>
+<tspan x="10" y="1514">.min.js</tspan>
+<tspan x="10" y="1530">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1546">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1562">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1578">ls: cannot access filters/entry.js: No such file or directory</tspan>
+<tspan x="10" y="1594"> 24.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with filters/entry.\</tspan>
+<tspan x="10" y="1610">js</tspan>
+<tspan x="10" y="1626">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1642">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1658">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1674">ls: cannot access filters/index.html: No such file or directory</tspan>
+<tspan x="10" y="1690"> 25.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with filters/index.\</tspan>
+<tspan x="10" y="1706">html</tspan>
+<tspan x="10" y="1722">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1738">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1754">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1770">ls: cannot access filters/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="1786"> 26.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with filters/jsonth\</tspan>
+<tspan x="10" y="1802">ing.json</tspan>
+<tspan x="10" y="1818">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1834">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1850">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1866">ls: cannot access filters/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="1882"> 27.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with filters/submod\</tspan>
+<tspan x="10" y="1898">ule.js</tspan>
+<tspan x="10" y="1914">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="1930">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="1946">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="1962">ls: cannot access filters/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="1978"> 28.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with filters/subsub\</tspan>
+<tspan x="10" y="1994">module.js</tspan>
+<tspan x="10" y="2010">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2026">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="2042">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="2058">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="2074">ls: cannot access filter/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="2090"> 29.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with include filter\</tspan>
+<tspan x="10" y="2106">/bundle.map.json</tspan>
+<tspan x="10" y="2122">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2138">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="2154">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="2170">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="2186">ls: cannot access filter/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="2202"> 30.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with include filter\</tspan>
+<tspan x="10" y="2218">/bundle.min.js</tspan>
+<tspan x="10" y="2234">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2250">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="2266">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="2282">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="2298">ls: cannot access filter/entry.js: No such file or directory</tspan>
+<tspan x="10" y="2314"> 31.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with include filter\</tspan>
+<tspan x="10" y="2330">/entry.js</tspan>
+<tspan x="10" y="2346">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2362">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="2378">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="2394">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="2410">ls: cannot access filter/index.html: No such file or directory</tspan>
+<tspan x="10" y="2426"> 32.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with include filter\</tspan>
+<tspan x="10" y="2442">/index.html</tspan>
+<tspan x="10" y="2458">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2474">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="2490">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="2506">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="2522">ls: cannot access filter/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="2538"> 33.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with include filter\</tspan>
+<tspan x="10" y="2554">/jsonthing.json</tspan>
+<tspan x="10" y="2570">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2586">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="2602">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="2618">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="2634">ls: cannot access filter/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="2650"> 34.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with include filter\</tspan>
+<tspan x="10" y="2666">/submodule.js</tspan>
+<tspan x="10" y="2682">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2698">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="2714">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="2730">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="2746">ls: cannot access filter/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="2762"> 35.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file with include filter\</tspan>
+<tspan x="10" y="2778">/subsubmodule.js</tspan>
+<tspan x="10" y="2794">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2810">ls: cannot access file/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="2826"> 36.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file/bundle.map.json</tspan>
+<tspan x="10" y="2842">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2858">ls: cannot access file/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="2874"> 37.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file/bundle.min.js</tspan>
+<tspan x="10" y="2890">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2906">ls: cannot access file/entry.js: No such file or directory</tspan>
+<tspan x="10" y="2922"> 38.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file/entry.js</tspan>
+<tspan x="10" y="2938">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="2954">ls: cannot access file/index.html: No such file or directory</tspan>
+<tspan x="10" y="2970"> 39.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file/index.html</tspan>
+<tspan x="10" y="2986">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="3002">ls: cannot access file/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="3018"> 40.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file/jsonthing.json</tspan>
+<tspan x="10" y="3034">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="3050">ls: cannot access file/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="3066"> 41.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file/submodule.js</tspan>
+<tspan x="10" y="3082">ls: cannot access test/build/apps/complex: No such file or directory</tspan>
+<tspan x="10" y="3098">ls: cannot access file/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="3114"> 42.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/complex file/subsubmodule.js</tspan>
+<tspan x="10" y="3130">ls: cannot access test/build/apps/custom: No such file or directory</tspan>
+<tspan x="10" y="3146">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3162">ls: cannot access path/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="3178"> 43.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/custom base path/bundle.map.json</tspan>
+<tspan x="10" y="3194">ls: cannot access test/build/apps/custom: No such file or directory</tspan>
+<tspan x="10" y="3210">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3226">ls: cannot access path/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="3242"> 44.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/custom base path/bundle.min.js</tspan>
+<tspan x="10" y="3258">ls: cannot access test/build/apps/custom: No such file or directory</tspan>
+<tspan x="10" y="3274">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3290">ls: cannot access path/dirA/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="3306"> 45.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/custom base path/dirA/submodule.\</tspan>
+<tspan x="10" y="3322">js</tspan>
+<tspan x="10" y="3338">ls: cannot access test/build/apps/custom: No such file or directory</tspan>
+<tspan x="10" y="3354">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3370">ls: cannot access path/dirB/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="3386"> 46.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/custom base path/dirB/subsubmodu\</tspan>
+<tspan x="10" y="3402">le.js</tspan>
+<tspan x="10" y="3418">ls: cannot access test/build/apps/custom: No such file or directory</tspan>
+<tspan x="10" y="3434">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3450">ls: cannot access path/entry.js: No such file or directory</tspan>
+<tspan x="10" y="3466"> 47.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/custom base path/entry.js</tspan>
+<tspan x="10" y="3482">ls: cannot access test/build/apps/custom: No such file or directory</tspan>
+<tspan x="10" y="3498">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3514">ls: cannot access path/index.html: No such file or directory</tspan>
+<tspan x="10" y="3530"> 48.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/custom base path/index.html</tspan>
+<tspan x="10" y="3546">ls: cannot access test/build/apps/custom: No such file or directory</tspan>
+<tspan x="10" y="3562">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3578">ls: cannot access path/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="3594"> 49.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/custom base path/jsonthing.json</tspan>
+<tspan x="10" y="3610">ls: cannot access test/build/apps/default: No such file or directory</tspan>
+<tspan x="10" y="3626">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3642">ls: cannot access path/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="3658"> 50.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/default base path/bundle.map.jso\</tspan>
+<tspan x="10" y="3674">n</tspan>
+<tspan x="10" y="3690">ls: cannot access test/build/apps/default: No such file or directory</tspan>
+<tspan x="10" y="3706">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3722">ls: cannot access path/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="3738"> 51.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/default base path/bundle.min.js</tspan>
+<tspan x="10" y="3754">ls: cannot access test/build/apps/default: No such file or directory</tspan>
+<tspan x="10" y="3770">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3786">ls: cannot access path/dirA/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="3802"> 52.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/default base path/dirA/submodule\</tspan>
+<tspan x="10" y="3818">.js</tspan>
+<tspan x="10" y="3834">ls: cannot access test/build/apps/default: No such file or directory</tspan>
+<tspan x="10" y="3850">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3866">ls: cannot access path/dirB/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="3882"> 53.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/default base path/dirB/subsubmod\</tspan>
+<tspan x="10" y="3898">ule.js</tspan>
+<tspan x="10" y="3914">ls: cannot access test/build/apps/default: No such file or directory</tspan>
+<tspan x="10" y="3930">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="3946">ls: cannot access path/entry.js: No such file or directory</tspan>
+<tspan x="10" y="3962"> 54.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/default base path/entry.js</tspan>
+<tspan x="10" y="3978">ls: cannot access test/build/apps/default: No such file or directory</tspan>
+<tspan x="10" y="3994">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="4010">ls: cannot access path/index.html: No such file or directory</tspan>
+<tspan x="10" y="4026"> 55.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/default base path/index.html</tspan>
+<tspan x="10" y="4042">ls: cannot access test/build/apps/default: No such file or directory</tspan>
+<tspan x="10" y="4058">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="4074">ls: cannot access path/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="4090"> 56.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/default base path/jsonthing.json</tspan>
+<tspan x="10" y="4106">ls: cannot access test/build/apps/native: No such file or directory</tspan>
+<tspan x="10" y="4122">ls: cannot access libs/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="4138"> 57.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/native libs/bundle.map.json</tspan>
+<tspan x="10" y="4154">ls: cannot access test/build/apps/native: No such file or directory</tspan>
+<tspan x="10" y="4170">ls: cannot access libs/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="4186"> 58.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/native libs/bundle.min.js</tspan>
+<tspan x="10" y="4202">ls: cannot access test/build/apps/native: No such file or directory</tspan>
+<tspan x="10" y="4218">ls: cannot access libs/entry.js: No such file or directory</tspan>
+<tspan x="10" y="4234"> 59.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/native libs/entry.js</tspan>
+<tspan x="10" y="4250">ls: cannot access test/build/apps/native: No such file or directory</tspan>
+<tspan x="10" y="4266">ls: cannot access libs/index.html: No such file or directory</tspan>
+<tspan x="10" y="4282"> 60.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/native libs/index.html</tspan>
+<tspan x="10" y="4298">ls: cannot access test/build/apps/native: No such file or directory</tspan>
+<tspan x="10" y="4314">ls: cannot access libs/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="4330"> 61.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/native libs/submodule.js</tspan>
+<tspan x="10" y="4346">ls: cannot access test/build/apps/simple: No such file or directory</tspan>
+<tspan x="10" y="4362">ls: cannot access file/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="4378"> 62.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/simple file/bundle.map.json</tspan>
+<tspan x="10" y="4394">ls: cannot access test/build/apps/simple: No such file or directory</tspan>
+<tspan x="10" y="4410">ls: cannot access file/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="4426"> 63.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/simple file/bundle.min.js</tspan>
+<tspan x="10" y="4442">ls: cannot access test/build/apps/simple: No such file or directory</tspan>
+<tspan x="10" y="4458">ls: cannot access file/entry.js: No such file or directory</tspan>
+<tspan x="10" y="4474"> 64.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/simple file/entry.js</tspan>
+<tspan x="10" y="4490">ls: cannot access test/build/apps/simple: No such file or directory</tspan>
+<tspan x="10" y="4506">ls: cannot access file/index.html: No such file or directory</tspan>
+<tspan x="10" y="4522"> 65.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/simple file/index.html</tspan>
+<tspan x="10" y="4538">ls: cannot access test/build/apps/transformed: No such file or directory</tspan>
+<tspan x="10" y="4554">ls: cannot access app/bundle.map.json: No such file or directory</tspan>
+<tspan x="10" y="4570"> 66.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/transformed app/bundle.map.json</tspan>
+<tspan x="10" y="4586">ls: cannot access test/build/apps/transformed: No such file or directory</tspan>
+<tspan x="10" y="4602">ls: cannot access app/bundle.min.js: No such file or directory</tspan>
+<tspan x="10" y="4618"> 67.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/transformed app/bundle.min.js</tspan>
+<tspan x="10" y="4634">ls: cannot access test/build/apps/transformed: No such file or directory</tspan>
+<tspan x="10" y="4650">ls: cannot access app/entry.js: No such file or directory</tspan>
+<tspan x="10" y="4666"> 68.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/transformed app/entry.js</tspan>
+<tspan x="10" y="4682">ls: cannot access test/build/apps/transformed: No such file or directory</tspan>
+<tspan x="10" y="4698">ls: cannot access app/index.html: No such file or directory</tspan>
+<tspan x="10" y="4714"> 69.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/transformed app/index.html</tspan>
+<tspan x="10" y="4730">ls: cannot access test/build/apps/transformed: No such file or directory</tspan>
+<tspan x="10" y="4746">ls: cannot access app/template.hbs: No such file or directory</tspan>
+<tspan x="10" y="4762"> 70.  2017-04-07 06:18:32 +0000     3418 bytes  test/build/apps/transformed app/template.hbs</tspan>
+<tspan x="10" y="4778"> 71.  2017-04-07 06:18:32 +0000      136 bytes  test/build/scaffold/index.html</tspan>
+<tspan x="10" y="4794"> 72.  2017-04-07 06:18:32 +0000     6682 bytes  test/bundles.js</tspan>
+<tspan x="10" y="4810">ls: cannot access test/fixtures/backbone: No such file or directory</tspan>
+<tspan x="10" y="4826">ls: cannot access app/entry.js: No such file or directory</tspan>
+<tspan x="10" y="4842"> 73.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/backbone app/entry.js</tspan>
+<tspan x="10" y="4858">ls: cannot access test/fixtures/backbone: No such file or directory</tspan>
+<tspan x="10" y="4874">ls: cannot access app/view.js: No such file or directory</tspan>
+<tspan x="10" y="4890"> 74.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/backbone app/view.js</tspan>
+<tspan x="10" y="4906">ls: cannot access test/fixtures/brfs: No such file or directory</tspan>
+<tspan x="10" y="4922">ls: cannot access app/entry.js: No such file or directory</tspan>
+<tspan x="10" y="4938"> 75.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/brfs app/entry.js</tspan>
+<tspan x="10" y="4954">ls: cannot access test/fixtures/coffee: No such file or directory</tspan>
+<tspan x="10" y="4970">ls: cannot access app/entry.coffee: No such file or directory</tspan>
+<tspan x="10" y="4986"> 76.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/coffee app/entry.coffee</tspan>
+<tspan x="10" y="5002">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5018">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5034">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5050">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="5066">ls: cannot access filter/entry.js: No such file or directory</tspan>
+<tspan x="10" y="5082"> 77.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with exclude filter/e\</tspan>
+<tspan x="10" y="5098">ntry.js</tspan>
+<tspan x="10" y="5114">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5130">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5146">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5162">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="5178">ls: cannot access filter/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="5194"> 78.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with exclude filter/j\</tspan>
+<tspan x="10" y="5210">sonthing.json</tspan>
+<tspan x="10" y="5226">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5242">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5258">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5274">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="5290">ls: cannot access filter/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="5306"> 79.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with exclude filter/s\</tspan>
+<tspan x="10" y="5322">ubmodule.js</tspan>
+<tspan x="10" y="5338">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5354">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5370">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5386">ls: cannot access exclude: No such file or directory</tspan>
+<tspan x="10" y="5402">ls: cannot access filter/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="5418"> 80.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with exclude filter/s\</tspan>
+<tspan x="10" y="5434">ubsubmodule.js</tspan>
+<tspan x="10" y="5450">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5466">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5482">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5498">ls: cannot access filters/entry.js: No such file or directory</tspan>
+<tspan x="10" y="5514"> 81.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with filters/entry.js</tspan>
+<tspan x="10" y="5530">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5546">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5562">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5578">ls: cannot access filters/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="5594"> 82.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with filters/jsonthin\</tspan>
+<tspan x="10" y="5610">g.json</tspan>
+<tspan x="10" y="5626">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5642">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5658">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5674">ls: cannot access filters/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="5690"> 83.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with filters/submodul\</tspan>
+<tspan x="10" y="5706">e.js</tspan>
+<tspan x="10" y="5722">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5738">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5754">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5770">ls: cannot access filters/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="5786"> 84.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with filters/subsubmo\</tspan>
+<tspan x="10" y="5802">dule.js</tspan>
+<tspan x="10" y="5818">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5834">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5850">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5866">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="5882">ls: cannot access filter/entry.js: No such file or directory</tspan>
+<tspan x="10" y="5898"> 85.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with include filter/e\</tspan>
+<tspan x="10" y="5914">ntry.js</tspan>
+<tspan x="10" y="5930">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="5946">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="5962">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="5978">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="5994">ls: cannot access filter/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="6010"> 86.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with include filter/j\</tspan>
+<tspan x="10" y="6026">sonthing.json</tspan>
+<tspan x="10" y="6042">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="6058">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="6074">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="6090">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="6106">ls: cannot access filter/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="6122"> 87.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with include filter/s\</tspan>
+<tspan x="10" y="6138">ubmodule.js</tspan>
+<tspan x="10" y="6154">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="6170">ls: cannot access file: No such file or directory</tspan>
+<tspan x="10" y="6186">ls: cannot access with: No such file or directory</tspan>
+<tspan x="10" y="6202">ls: cannot access include: No such file or directory</tspan>
+<tspan x="10" y="6218">ls: cannot access filter/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="6234"> 88.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file with include filter/s\</tspan>
+<tspan x="10" y="6250">ubsubmodule.js</tspan>
+<tspan x="10" y="6266">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="6282">ls: cannot access file/entry.js: No such file or directory</tspan>
+<tspan x="10" y="6298"> 89.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file/entry.js</tspan>
+<tspan x="10" y="6314">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="6330">ls: cannot access file/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="6346"> 90.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file/jsonthing.json</tspan>
+<tspan x="10" y="6362">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="6378">ls: cannot access file/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="6394"> 91.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file/submodule.js</tspan>
+<tspan x="10" y="6410">ls: cannot access test/fixtures/complex: No such file or directory</tspan>
+<tspan x="10" y="6426">ls: cannot access file/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="6442"> 92.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/complex file/subsubmodule.js</tspan>
+<tspan x="10" y="6458">ls: cannot access test/fixtures/custom: No such file or directory</tspan>
+<tspan x="10" y="6474">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6490">ls: cannot access path/dirA/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="6506"> 93.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/custom base path/dirA/submodule.js</tspan>
+<tspan x="10" y="6522">ls: cannot access test/fixtures/custom: No such file or directory</tspan>
+<tspan x="10" y="6538">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6554">ls: cannot access path/dirB/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="6570"> 94.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/custom base path/dirB/subsubmodule\</tspan>
+<tspan x="10" y="6586">.js</tspan>
+<tspan x="10" y="6602">ls: cannot access test/fixtures/custom: No such file or directory</tspan>
+<tspan x="10" y="6618">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6634">ls: cannot access path/entry.js: No such file or directory</tspan>
+<tspan x="10" y="6650"> 95.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/custom base path/entry.js</tspan>
+<tspan x="10" y="6666">ls: cannot access test/fixtures/custom: No such file or directory</tspan>
+<tspan x="10" y="6682">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6698">ls: cannot access path/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="6714"> 96.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/custom base path/jsonthing.json</tspan>
+<tspan x="10" y="6730">ls: cannot access test/fixtures/default: No such file or directory</tspan>
+<tspan x="10" y="6746">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6762">ls: cannot access path/dirA/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="6778"> 97.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/default base path/dirA/submodule.j\</tspan>
+<tspan x="10" y="6794">s</tspan>
+<tspan x="10" y="6810">ls: cannot access test/fixtures/default: No such file or directory</tspan>
+<tspan x="10" y="6826">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6842">ls: cannot access path/dirB/subsubmodule.js: No such file or directory</tspan>
+<tspan x="10" y="6858"> 98.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/default base path/dirB/subsubmodul\</tspan>
+<tspan x="10" y="6874">e.js</tspan>
+<tspan x="10" y="6890">ls: cannot access test/fixtures/default: No such file or directory</tspan>
+<tspan x="10" y="6906">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6922">ls: cannot access path/entry.js: No such file or directory</tspan>
+<tspan x="10" y="6938"> 99.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/default base path/entry.js</tspan>
+<tspan x="10" y="6954">ls: cannot access test/fixtures/default: No such file or directory</tspan>
+<tspan x="10" y="6970">ls: cannot access base: No such file or directory</tspan>
+<tspan x="10" y="6986">ls: cannot access path/jsonthing.json: No such file or directory</tspan>
+<tspan x="10" y="7002">100.  2017-04-07 06:18:32 +0000     6682 bytes  test/fixtures/default base path/jsonthing.json</tspan>
+<tspan x="10" y="7018">101.  2017-04-07 06:18:32 +0000     1022 bytes  test/fixtures/index.js</tspan>
+<tspan x="10" y="7034">102.  2017-04-07 06:18:32 +0000    59498 bytes  test/fixtures/libraries/Backbone.js</tspan>
+<tspan x="10" y="7050">103.  2017-04-07 06:18:32 +0000    19457 bytes  test/fixtures/libraries/Backbone.min.js</tspan>
+<tspan x="10" y="7066">104.  2017-04-07 06:18:32 +0000    27276 bytes  test/fixtures/libraries/Backbone.min.map</tspan>
+<tspan x="10" y="7082">105.  2017-04-07 06:18:32 +0000    28781 bytes  test/fixtures/libraries/HandlebarsRuntime.js</tspan>
+<tspan x="10" y="7098">106.  2017-04-07 06:18:32 +0000   241443 bytes  test/fixtures/libraries/Jquery.js</tspan>
+<tspan x="10" y="7114">107.  2017-04-07 06:18:32 +0000   187307 bytes  test/fixtures/libraries/Lodash.js</tspan>
+<tspan x="10" y="7130">108.  2017-04-07 06:18:32 +0000    42472 bytes  test/fixtures/libraries/Underscore.js</tspan>
+<tspan x="10" y="7146">ls: cannot access test/fixtures/native: No such file or directory</tspan>
+<tspan x="10" y="7162">ls: cannot access libs/entry.js: No such file or directory</tspan>
+<tspan x="10" y="7178">109.  2017-04-07 06:18:32 +0000    42472 bytes  test/fixtures/native libs/entry.js</tspan>
+<tspan x="10" y="7194">ls: cannot access test/fixtures/native: No such file or directory</tspan>
+<tspan x="10" y="7210">ls: cannot access libs/submodule.js: No such file or directory</tspan>
+<tspan x="10" y="7226">110.  2017-04-07 06:18:32 +0000    42472 bytes  test/fixtures/native libs/submodule.js</tspan>
+<tspan x="10" y="7242">ls: cannot access test/fixtures/simple: No such file or directory</tspan>
+<tspan x="10" y="7258">ls: cannot access file/entry.js: No such file or directory</tspan>
+<tspan x="10" y="7274">111.  2017-04-07 06:18:32 +0000    42472 bytes  test/fixtures/simple file/entry.js</tspan>
+<tspan x="10" y="7290">ls: cannot access test/fixtures/transformed: No such file or directory</tspan>
+<tspan x="10" y="7306">ls: cannot access app/entry.js: No such file or directory</tspan>
+<tspan x="10" y="7322">112.  2017-04-07 06:18:32 +0000    42472 bytes  test/fixtures/transformed app/entry.js</tspan>
+<tspan x="10" y="7338">ls: cannot access test/fixtures/transformed: No such file or directory</tspan>
+<tspan x="10" y="7354">ls: cannot access app/template.hbs: No such file or directory</tspan>
+<tspan x="10" y="7370">113.  2017-04-07 06:18:32 +0000    42472 bytes  test/fixtures/transformed app/template.hbs</tspan>
+<tspan x="10" y="7386">114.  2017-04-07 06:18:32 +0000     8578 bytes  test/plugin-api.js</tspan>
+<tspan x="10" y="7402">115.  2017-04-07 06:18:32 +0000     1157 bytes  test/user-errors.js</tspan>
+</text>
+</svg>

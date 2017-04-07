@@ -1,0 +1,1004 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/ben-ng/minifyify#readme"
+
+    >minifyify (v7.3.5)</a>
+</h1>
+<h4>Minify your browserify bundles without losing the sourcemap</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.minifyify">module minifyify</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier">
+            function <span class="apidocSignatureSpan">minifyify.</span>minifier
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">minifyify.</span>minifier.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.minifyify.minifier">module minifyify.minifier</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.minifier">
+            function <span class="apidocSignatureSpan">minifyify.</span>minifier
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.minifyify.minifier.prototype">module minifyify.minifier.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.codeForFile">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>codeForFile
+            <span class="apidocSignatureSpan">(file)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.consumer">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>consumer
+            <span class="apidocSignatureSpan">(cb)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.decoupleBundle">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>decoupleBundle
+            <span class="apidocSignatureSpan">(src)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.eachSource">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>eachSource
+            <span class="apidocSignatureSpan">(cb)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.fileExists">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>fileExists
+            <span class="apidocSignatureSpan">(file)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.mapForFile">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>mapForFile
+            <span class="apidocSignatureSpan">(file)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.normalizePath">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>normalizePath
+            <span class="apidocSignatureSpan">(file)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.registerMap">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>registerMap
+            <span class="apidocSignatureSpan">(file, code, map)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.sanitizeObject">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>sanitizeObject
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.transformMap">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>transformMap
+            <span class="apidocSignatureSpan">(bundleMap)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.transformMapping">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>transformMapping
+            <span class="apidocSignatureSpan">(file, mapping, offset)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier.prototype.transformer">
+            function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>transformer
+            <span class="apidocSignatureSpan">(file)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.minifyify" id="apidoc.module.minifyify">module minifyify</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier" id="apidoc.element.minifyify.minifier">
+        function <span class="apidocSignatureSpan">minifyify.</span>minifier
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minifier = function (opts) {
+<span class="apidocCodeCommentSpan">  /*
+  * Handle options/defaults
+  */
+</span>
+  opts = opts || {};
+
+  var defaults = {
+        minify: true
+      , source: &#x27;bundle.js&#x27;
+      , map: &#x27;bundle.map&#x27;
+      , sourcesContent: true
+      , compressPath: function (filePath) {
+          // noop
+          return filePath;
+        }
+      }
+  , compressTarget;
+
+  this.opts = _.defaults(opts, defaults);
+
+  /* Turn a string compressPath into a function */
+  if(typeof this.opts.compressPath == &#x27;string&#x27;) {
+    compressTarget = this.opts.compressPath;
+
+    this.opts.compressPath = function (p) {
+      return path.relative(compressTarget, p);
+    }
+  }
+
+  /*
+  * Instance variables
+  */
+  this.registry = {}; // Keep source maps and code by file
+
+  /**
+  * Browserify runs transforms with a different context
+  * but we always want to refer to ourselves
+  */
+  this.transformer = _.bind(this.transformer, this);
+
+  // Apply glob string include/exclude filters
+  this.transformer = filter(this.transformer, {
+    include : opts.include,
+    exclude : opts.exclude,
+    base    : opts.base
+  });
+
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.minifyify.minifier" id="apidoc.module.minifyify.minifier">module minifyify.minifier</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.minifier" id="apidoc.element.minifyify.minifier.minifier">
+        function <span class="apidocSignatureSpan">minifyify.</span>minifier
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minifier = function (opts) {
+<span class="apidocCodeCommentSpan">  /*
+  * Handle options/defaults
+  */
+</span>
+  opts = opts || {};
+
+  var defaults = {
+        minify: true
+      , source: &#x27;bundle.js&#x27;
+      , map: &#x27;bundle.map&#x27;
+      , sourcesContent: true
+      , compressPath: function (filePath) {
+          // noop
+          return filePath;
+        }
+      }
+  , compressTarget;
+
+  this.opts = _.defaults(opts, defaults);
+
+  /* Turn a string compressPath into a function */
+  if(typeof this.opts.compressPath == &#x27;string&#x27;) {
+    compressTarget = this.opts.compressPath;
+
+    this.opts.compressPath = function (p) {
+      return path.relative(compressTarget, p);
+    }
+  }
+
+  /*
+  * Instance variables
+  */
+  this.registry = {}; // Keep source maps and code by file
+
+  /**
+  * Browserify runs transforms with a different context
+  * but we always want to refer to ourselves
+  */
+  this.transformer = _.bind(this.transformer, this);
+
+  // Apply glob string include/exclude filters
+  this.transformer = filter(this.transformer, {
+    include : opts.include,
+    exclude : opts.exclude,
+    base    : opts.base
+  });
+
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.minifyify.minifier.prototype" id="apidoc.module.minifyify.minifier.prototype">module minifyify.minifier.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.codeForFile" id="apidoc.element.minifyify.minifier.prototype.codeForFile">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>codeForFile
+        <span class="apidocSignatureSpan">(file)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">codeForFile = function (file) {
+  if(!this.fileExists(file)) {
+    throw new Error(&#x27;ENOFILE&#x27;);
+  }
+
+  return this.registry[file].code;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/*
+* Iterates over each code file, executes a function
+*/
+Minifier.prototype.eachSource = function (cb) {
+  var self = this;
+
+  _.each(Object.keys(this.registry).sort(), function(file) {
+    cb(file, self.<span class="apidocCodeKeywordSpan">codeForFile</span>(file), self.mapForFile(file));
+  });
+};
+
+/*
+* Given source with embedded sourcemap, seperate the two
+* Returns the code and SourcemapConsumer object seperately
+*/
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.consumer" id="apidoc.element.minifyify.minifier.prototype.consumer">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>consumer
+        <span class="apidocSignatureSpan">(cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">consumer = function (cb) {
+  var self = this;
+
+  return concat(function(data) {
+    if(!self.opts.minify) {
+      // Keep browserify&#x27;s sourcemap
+      return cb(null, data.toString(), null);
+    }
+    else if (!self.opts.map) {
+      // Remove browserify&#x27;s inline sourcemap
+      return cb(null, convertSM.removeComments(data.toString()), null);
+    }
+    else {
+      var bundle = self.decoupleBundle(data);
+
+      if(bundle === false) {
+        if(self.opts.minify)
+          throw new Error(&#x27;Browserify must be in debug mode for minifyify to consume sourcemaps&#x27;)
+
+        return cb(null, convertSM.removeComments(data.toString()));
+      }
+
+      // Re-maps the browserify sourcemap
+      // to the original source using the
+      // uglify sourcemap
+      bundle.map = self.transformMap(bundle.map);
+
+      bundle.code = bundle.code + &#x27;\n//# sourceMappingURL=&#x27; + self.opts.map
+
+      cb(null, bundle.code, bundle.map);
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.decoupleBundle" id="apidoc.element.minifyify.minifier.prototype.decoupleBundle">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>decoupleBundle
+        <span class="apidocSignatureSpan">(src)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">decoupleBundle = function (src) {
+  if(typeof src != &#x27;string&#x27;)
+    src = src.toString();
+
+  var map = convertSM.fromSource(src);
+  // The source didn&#x27;t have a sourcemap in it
+  if(!map) {
+    return false;
+  }
+
+  return {
+    code: convertSM.removeComments(src)
+  , map: new SMConsumer( map.toObject() )
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+return cb(null, data.toString(), null);
+    }
+    else if (!self.opts.map) {
+// Remove browserify&#x27;s inline sourcemap
+return cb(null, convertSM.removeComments(data.toString()), null);
+    }
+    else {
+var bundle = self.<span class="apidocCodeKeywordSpan">decoupleBundle</span>(data);
+
+if(bundle === false) {
+  if(self.opts.minify)
+    throw new Error(&#x27;Browserify must be in debug mode for minifyify to consume sourcemaps&#x27;)
+
+  return cb(null, convertSM.removeComments(data.toString()));
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.eachSource" id="apidoc.element.minifyify.minifier.prototype.eachSource">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>eachSource
+        <span class="apidocSignatureSpan">(cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">eachSource = function (cb) {
+  var self = this;
+
+  _.each(Object.keys(this.registry).sort(), function(file) {
+    cb(file, self.codeForFile(file), self.mapForFile(file));
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+// Map from the hi-res sourcemaps to the browserify bundle
+if(process.env.debug) {
+  console.log(&#x27; [DEBUG] Here is how I\&#x27;m mapping your code:&#x27;);
+}
+
+self.<span class="apidocCodeKeywordSpan">eachSource</span>(function (file, code) {
+  // Ignore files with no mappings
+  if(!self.fileExists(file) || hasNoMappings(file)) {
+    if(process.env.debug) {
+      throw new Error(&#x27;File with no mappings: &#x27; + file)
+    }
+    return;
+  }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.fileExists" id="apidoc.element.minifyify.minifier.prototype.fileExists">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>fileExists
+        <span class="apidocSignatureSpan">(file)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fileExists = function (file) {
+  return (this.registry[file] != null);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.registry[file] = {code:code, map:map};
+};
+
+/*
+* Gets map by file
+*/
+Minifier.prototype.mapForFile = function (file) {
+  if(!this.<span class="apidocCodeKeywordSpan">fileExists</span>(file)) {
+    throw new Error(&#x27;ENOFILE&#x27;);
+  }
+
+  return this.registry[file].map;
+};
+
+/*
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.mapForFile" id="apidoc.element.minifyify.minifier.prototype.mapForFile">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>mapForFile
+        <span class="apidocSignatureSpan">(file)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mapForFile = function (file) {
+  if(!this.fileExists(file)) {
+    throw new Error(&#x27;ENOFILE&#x27;);
+  }
+
+  return this.registry[file].map;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if(process.env.debug) {
+    throw new Error(&#x27;File with no mappings: &#x27; + file)
+  }
+  return;
+}
+
+var offset = lineForSource(file) - 1
+  , fileMap = self.<span class="apidocCodeKeywordSpan">mapForFile</span>(file)
+  , transformedFileName = self.opts.compressPath(file);
+
+if(process.env.debug) {
+  console.log(&#x27; [DEBUG]  Now mapping &#x22;&#x27; + transformedFileName + &#x27;&#x22;&#x27;);
+}
+
+fileMap.eachMapping(function (mapping) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.normalizePath" id="apidoc.element.minifyify.minifier.prototype.normalizePath">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>normalizePath
+        <span class="apidocSignatureSpan">(file)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">normalizePath = function (file) {
+  // Is file a relative path?
+  if (!/^\w:|^\//.test(file)) {
+    return file.replace(/\\/g, &#x27;/&#x27;);
+  }
+  // Resolve absolute paths relative to basedir
+  // Force &#x27;/&#x27; as path separator
+  var basedir = this.opts.basedir || process.cwd();
+  return path.relative(basedir, file).replace(/\\/g, &#x27;/&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  , basedir = this.opts.basedir || process.cwd()
+  , buffs = []
+  , write
+  , end
+  , throughStream;
+
+//Normalize the path separators to match what Browserify stores in the original Source Map
+file = this.<span class="apidocCodeKeywordSpan">normalizePath</span>(file);
+
+write = function (data) {
+  if(self.opts.minify) {
+    buffs.push(data);
+  }
+  else {
+    this.queue(data);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.registerMap" id="apidoc.element.minifyify.minifier.prototype.registerMap">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>registerMap
+        <span class="apidocSignatureSpan">(file, code, map)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">registerMap = function (file, code, map) {
+  this.registry[file] = {code:code, map:map};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+try {
+  var min = uglify.minify(unminCode, opts);
+
+  thisStream.queue(convertSM.removeMapFileComments(min.code).trim());
+
+  if(self.opts.map) {
+    self.<span class="apidocCodeKeywordSpan">registerMap</span>(file, originalCode || unminCode, new SMConsumer(min.map));
+  }
+}
+catch(e) {
+  console.error(&#x27;uglify-js failed on &#x27;+file+&#x27; : &#x27; + e.toString());
+  thisStream.queue(unminCode);
+}
+finally {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.sanitizeObject" id="apidoc.element.minifyify.minifier.prototype.sanitizeObject">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>sanitizeObject
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">sanitizeObject = function (opts) {
+  if(opts._ !== undefined) delete opts._;
+  for (var key in opts) {
+    if(typeof opts[key] === &#x27;object&#x27; &#x26;&#x26; opts[key] != null) {
+      this.sanitizeObject(opts[key]);
+    }
+  }
+  return opts;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        var opts = {
+  fromString: true
+, outSourceMap: (self.opts.map ? self.opts.map : undefined)
+, inSourceMap: (self.opts.map ? tempExistingMapFile : undefined)
+        };
+
+        if (typeof self.opts.uglify === &#x27;object&#x27;) {
+self.<span class="apidocCodeKeywordSpan">sanitizeObject</span>(self.opts.uglify);
+_.assign(opts, self.opts.uglify);
+        }
+
+        try {
+var min = uglify.minify(unminCode, opts);
+
+thisStream.queue(convertSM.removeMapFileComments(min.code).trim());
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.transformMap" id="apidoc.element.minifyify.minifier.prototype.transformMap">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>transformMap
+        <span class="apidocSignatureSpan">(bundleMap)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transformMap = function (bundleMap) {
+  var self = this
+    , generator = new SMGenerator({
+        file: self.opts.source
+      })
+      // Map File -&#x3e; The lowest numbered line in the bundle (offset)
+    , bundleToMinMap = {}
+
+<span class="apidocCodeCommentSpan">      /*
+      * Helper function that maps minified source to a line in the browserify bundle
+      */
+</span>    , mapSourceToLine = function (source, line) {
+        var target = bundleToMinMap[source];
+
+        if(!target || target &#x3e; line) {
+          bundleToMinMap[source] = line;
+        }
+      }
+
+    , hasNoMappings = function (file) {
+        return bundleToMinMap[file] == null;
+      }
+
+      /*
+      * Helper function that gets the line
+      */
+    , lineForSource = function (source) {
+        if(hasNoMappings(source)) {
+          throw new Error(&#x27;ENOFILE: &#x27; + source);
+        }
+
+        var target = bundleToMinMap[source];
+
+        return target;
+      }
+    , missingSources = {};
+
+  // Figure out where my minified files went in the bundle
+  bundleMap.eachMapping(function (mapping) {
+    var source = self.normalizePath(mapping.source);
+    if(self.fileExists(source)) {
+      mapSourceToLine(source, mapping.generatedLine);
+    }
+    // Not a known source, pass thru the mapping
+    else {
+      generator.addMapping({
+        generated: {
+          line: mapping.generatedLine
+        , column: mapping.generatedColumn
+        }
+      , original: {
+          line: mapping.originalLine
+        , column: mapping.originalColumn
+        }
+      , source: self.opts.compressPath(mapping.source)
+      , name: mapping.name
+      });
+
+      missingSources[mapping.source] = true;
+    }
+  });
+
+  if(process.env.debug) {
+    console.log(&#x27; [DEBUG] Here is where Browserify put your modules:&#x27;);
+    _.each(bundleToMinMap, function (line, file) {
+      console.log(&#x27; [DEBUG] line &#x27; + line + &#x27; &#x22;&#x27; + self.opts.compressPath(file) + &#x27;&#x22;&#x27;);
+    });
+  }
+
+  // Add sourceContent for missing sources
+  if (self.opts.sourcesContent) {
+    _.each(missingSources, function (v, source) {
+      generator.setSourceContent(self.opts.compressPath(source), bundleMap.sourceContentFor(source));
+    });
+  }
+
+  // Map from the hi-res sourcemaps to the browserify bundle
+  if(process.env.debug) {
+    console.log(&#x27; [DEBUG] Here is how I\&#x27;m mapping your code:&#x27;);
+  }
+
+  self.eachSource(function (file, code) {
+    // Ignore files with no mappings
+    if(!self.fileExists(file) || hasNoMappings(file)) {
+      if(process.env.debug) {
+        throw new Error(&#x27;File with no mappings: &#x27; + file)
+      }
+      return;
+    }
+
+    var offset = lineForSource(file) - 1
+      , fileMap = self.mapForFile(file)
+      , transformedFileName = self.opts.compressPath(file);
+
+    if(process.env.debug) {
+      console.log(&#x27; [DEBUG]  Now mapping &#x22;&#x27; + transformedFileName + &#x27;&#x22;&#x27;);
+    }
+
+    fileMap.eachMapping(function (mapping) {
+      var transformedMapping = self.transformMapping(transformedFileName, mapping, offset);
+
+      if(process.env.debug) {
+        console.log(&#x27; [DEBUG]  Generated [&#x27; + transformedMapping.generated.line +
+           &#x27;:&#x27; + transformedMapping.generated.column + &#x27;] &#x3e; [&#x27; +
+           mapping.originalLine + &#x27;:&#x27; + mapping.originalColumn + &#x27;] Original&#x27;);
+      }
+
+      generator.addMapping( transformedMapping );
+    });
+
+    if (self.opts.sourcesContent) {
+      generator.setSourceContent(transformedFileName, code);
+    }
+  });
+
+  return generator.toString();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+        return cb(null, convertSM.removeComments(data.toString()));
+      }
+
+      // Re-maps the browserify sourcemap
+      // to the original source using the
+      // uglify sourcemap
+      bundle.map = self.<span class="apidocCodeKeywordSpan">transformMap</span>(bundle.map);
+
+      bundle.code = bundle.code + &#x27;\n//# sourceMappingURL=&#x27; + self.opts.map
+
+      cb(null, bundle.code, bundle.map);
+    }
+  });
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.transformMapping" id="apidoc.element.minifyify.minifier.prototype.transformMapping">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>transformMapping
+        <span class="apidocSignatureSpan">(file, mapping, offset)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transformMapping = function (file, mapping, offset) {
+  return {
+    generated: {
+      line: mapping.generatedLine + offset
+    , column: mapping.generatedColumn
+    }
+  , original: {
+      line: mapping.originalLine
+    , column: mapping.originalColumn
+    }
+  , source: file
+  , name: mapping.name
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+, transformedFileName = self.opts.compressPath(file);
+
+    if(process.env.debug) {
+console.log(&#x27; [DEBUG]  Now mapping &#x22;&#x27; + transformedFileName + &#x27;&#x22;&#x27;);
+    }
+
+    fileMap.eachMapping(function (mapping) {
+var transformedMapping = self.<span class="apidocCodeKeywordSpan">transformMapping</span>(transformedFileName, mapping, offset);
+
+if(process.env.debug) {
+  console.log(&#x27; [DEBUG]  Generated [&#x27; + transformedMapping.generated.line +
+     &#x27;:&#x27; + transformedMapping.generated.column + &#x27;] &#x3e; [&#x27; +
+     mapping.originalLine + &#x27;:&#x27; + mapping.originalColumn + &#x27;] Original&#x27;);
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifier.prototype.transformer" id="apidoc.element.minifyify.minifier.prototype.transformer">
+        function <span class="apidocSignatureSpan">minifyify.minifier.prototype.</span>transformer
+        <span class="apidocSignatureSpan">(file)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transformer = function (file) {
+  var self = this
+    , basedir = this.opts.basedir || process.cwd()
+    , buffs = []
+    , write
+    , end
+    , throughStream;
+
+  //Normalize the path separators to match what Browserify stores in the original Source Map
+  file = this.normalizePath(file);
+
+  write = function (data) {
+    if(self.opts.minify) {
+      buffs.push(data);
+    }
+    else {
+      this.queue(data);
+    }
+  }
+
+  end = function () {
+    if(self.opts.minify === false) {
+      this.queue(null)
+      return
+    }
+
+    var thisStream = this
+      , unminCode = buffs.join(&#x27;&#x27;)
+      , originalCode = false
+      , existingMap = convertSM.fromSource(unminCode)
+      , finish;
+
+    existingMap = existingMap ? existingMap.toObject() : false;
+
+    if(existingMap &#x26;&#x26; existingMap.sourcesContent &#x26;&#x26; existingMap.sourcesContent.length) {
+      originalCode = convertSM.removeComments(existingMap.sourcesContent[0]);
+      existingMap = JSON.stringify(existingMap);
+    }
+    // Only accept existing maps with sourcesContent
+    else {
+      existingMap = false;
+    }
+
+    finish = function (tempExistingMapFile, cleanupCallback) {
+      // Don&#x27;t minify JSON!
+      if(file.match(/\.json$/)) {
+        try {
+          thisStream.queue(JSON.stringify(JSON.parse(unminCode)))
+        }
+        catch(e) {
+          console.error(&#x27;failed to parse JSON in &#x27; + file)
+          thisStream.queue(unminCode)
+        }
+      }
+      else if (file.match(/\.css$/)) {
+        thisStream.queue(unminCode)
+      }
+      else {
+        var opts = {
+            fromString: true
+          , outSourceMap: (self.opts.map ? self.opts.map : undefined)
+          , inSourceMap: (self.opts.map ? tempExistingMapFile : undefined)
+        };
+
+        if (typeof self.opts.uglify === &#x27;object&#x27;) {
+          self.sanitizeObject(self.opts.uglify);
+          _.assign(opts, self.opts.uglify);
+        }
+
+        try {
+          var min = uglify.minify(unminCode, opts);
+
+          thisStream.queue(convertSM.removeMapFileComments(min.code).trim());
+
+          if(self.opts.map) {
+            self.registerMap(file, originalCode || unminCode, new SMConsumer(min.map));
+          }
+        }
+        catch(e) {
+          console.error(&#x27;uglify-js failed on &#x27;+file+&#x27; : &#x27; + e.toString());
+          thisStream.queue(unminCode);
+        }
+        finally {
+          if (typeof cleanupCallback === &#x27;function&#x27;) {
+            cleanupCallback();
+          }
+        }
+      }
+
+      // Otherwise we&#x27;ll never finish
+      thisStream.queue(null);
+    }
+
+    if(existingMap) {
+      tmp.file(function (err, path, fd, cleanupCallback) {
+        if(err) {
+          cleanupCallback();
+          throw err;
+        }
+
+        fs.writeFile(path, existingMap, function (err) {
+          if(err) {
+            cleanupCallback();
+            throw err;
+          }
+          finish(path, cleanupCallback);
+        });
+      });
+    }
+    else {
+      finish();
+    }
+  }
+
+  throughStream = through(write, end);
+
+  throughStream.call = function () {
+    throw new Error(&#x27;Transformer is a transform. Correct usage: `bundle.transform(minifier.transformer)`.&#x27;)
+  }
+
+  return throughStream;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
