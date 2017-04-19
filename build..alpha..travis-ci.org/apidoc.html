@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifyify">
+            function <span class="apidocSignatureSpan"></span>minifyify
+            <span class="apidocSignatureSpan">(bundle, minifyifyOpts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.minifyify.minifier">
             function <span class="apidocSignatureSpan">minifyify.</span>minifier
             <span class="apidocSignatureSpan">(opts)</span>
@@ -207,6 +216,141 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.minifyify" id="apidoc.module.minifyify">module minifyify</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.minifyify.minifyify" id="apidoc.element.minifyify.minifyify">
+        function <span class="apidocSignatureSpan"></span>minifyify
+        <span class="apidocSignatureSpan">(bundle, minifyifyOpts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minifyify = function (bundle, minifyifyOpts) {
+  minifyifyOpts = minifyifyOpts || {};
+
+  var minifyify = require(&#x27;./minifier&#x27;)
+    , minifier = new minifyify(minifyifyOpts)
+    , oldBundle = bundle.bundle
+    , bundleStarted = false;
+
+  // Hook up the transform so we know what sources were used
+  bundle.transform({global: true}, minifier.transformer);
+
+  // Proxy the bundle&#x27;s bundle function so we can capture its output
+  bundle.bundle = function (bundleOpts, bundleCb) {
+    var bundleStream
+      , minifiedStream = new MinifiedStream();
+
+    // Normalize options
+    if(typeof bundleOpts == &#x27;function&#x27;) {
+      bundleCb = bundleOpts;
+      bundleOpts = {};
+    }
+    else {
+      bundleOpts = bundleOpts || {};
+    }
+
+    // Force debug mode for browserify &#x3c; 5
+    bundleOpts.debug = true;
+
+    // For browserify 5, the bundle must be constructed with debug: true
+    if(oldBundle.length === 1) {
+      bundleOpts = undefined
+    }
+
+<span class="apidocCodeCommentSpan">    /*
+    * If no callback was given, require that the user
+    * specified a path to write the sourcemap out to
+    */
+</span>    if(!bundleStarted &#x26;&#x26; !bundleCb &#x26;&#x26; !minifyifyOpts.output &#x26;&#x26; minifyifyOpts.map) {
+      throw new Error(&#x27;Minifyify: opts.output is required since no callback was given&#x27;);
+    }
+
+    // Call browserify&#x27;s bundle function and capture the output stream
+    bundleStream = oldBundle.call(bundle);
+
+    /*
+    * Browserify has this mechanism that delays bundling until all deps
+    * are ready, and that means bundle gets called twice. The extra time,
+    * it should just pass thru the data instead of trying to consume it.
+    */
+    if(bundleStarted) {
+      return bundleStream;
+    }
+
+    if(!bundleStarted) {
+      bundleStarted = true;
+    }
+
+    /*
+    * Pipe browserify&#x27;s output into the minifier&#x27;s consumer
+    * which has the ability to transform the sourcemap
+    */
+    bundleStream.pipe(minifier.consumer(function (err, src, map) {
+      var finish;
+
+      // A callback we&#x27;ll need later
+      finish = function () {
+        // Otherwise, throw if anything bad happened
+        if(err) {
+          bundleStarted = false;
+          throw err;
+        }
+
+        // Push the minified src to our proxied stream
+        minifiedStream.push(src);
+        minifiedStream.push(null);
+
+        bundleStarted = false;
+        if(typeof bundleCb == &#x27;function&#x27;) {
+          return bundleCb(err, new Buffer(src), map);
+        }
+      };
+
+
+      if (!map &#x26;&#x26; bundle._options.debug) {
+        // we don&#x27;t have any sourcemap data but we browserify is in debug mode
+        // so, just pass src through
+        finish();
+      } else if(minifyifyOpts.minify &#x26;&#x26; minifyifyOpts.output) {
+        // Write the sourcemap to the specified output location
+
+        // This is so CLI users get a helpful error when their stuff breaks
+        if(!map) {
+          throw new Error(&#x27;Run browserify in debug mode to use minifyify&#x27;)
+        }
+
+        var dir = path.dirname(minifyifyOpts.output);
+
+        // create target directory if it doesn&#x27;t exist
+        if (dir) mkdirp.sync(dir);
+
+        var writeStream = fs.createWriteStream(minifyifyOpts.output);
+
+        // Delay completion until the map is written
+        writeStream.on(&#x27;close&#x27;, finish);
+
+        writeStream.write(map);
+        writeStream.end();
+      }
+      else {
+        finish();
+      }
+    }));
+
+    // Forward on the error event
+    bundleStream.on(&#x27;error&#x27;, function (err) {
+      bundleStarted = false;
+      minifiedStream.emit(&#x27;error&#x27;, err)
+    })
+
+    // The bundle function should return our proxied stream
+    return minifiedStream;
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>

@@ -1,55 +1,57 @@
-<svg height="830" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="830" fill="#555" width="720"></rect>
+<svg height="862" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="862" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">7 megabytes</tspan>
-<tspan x="10" y="42">├── UNMET PEER DEPENDENCY browserify@&gt;= 5</tspan>
-<tspan x="10" y="58">└─┬ minifyify@7.3.5 </tspan>
-<tspan x="10" y="74">  ├─┬ concat-stream@1.6.0 </tspan>
-<tspan x="10" y="90">  │ ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="106">  │ ├─┬ readable-stream@2.2.6 </tspan>
-<tspan x="10" y="122">  │ │ ├── buffer-shims@1.0.0 </tspan>
-<tspan x="10" y="138">  │ │ ├── core-util-is@1.0.2 </tspan>
-<tspan x="10" y="154">  │ │ ├── isarray@1.0.0 </tspan>
-<tspan x="10" y="170">  │ │ ├── process-nextick-args@1.0.7 </tspan>
-<tspan x="10" y="186">  │ │ ├── string_decoder@0.10.31 </tspan>
-<tspan x="10" y="202">  │ │ └── util-deprecate@1.0.2 </tspan>
-<tspan x="10" y="218">  │ └── typedarray@0.0.6 </tspan>
-<tspan x="10" y="234">  ├── convert-source-map@1.5.0 </tspan>
-<tspan x="10" y="250">  ├── lodash.assign@4.2.0 </tspan>
-<tspan x="10" y="266">  ├── lodash.bind@4.2.1 </tspan>
-<tspan x="10" y="282">  ├── lodash.defaults@4.2.0 </tspan>
-<tspan x="10" y="298">  ├── lodash.foreach@4.5.0 </tspan>
-<tspan x="10" y="314">  ├─┬ mkdirp@0.5.1 </tspan>
-<tspan x="10" y="330">  │ └── minimist@0.0.8 </tspan>
-<tspan x="10" y="346">  ├── source-map@0.5.6 </tspan>
-<tspan x="10" y="362">  ├── through@2.3.8 </tspan>
-<tspan x="10" y="378">  ├─┬ tmp@0.0.28 </tspan>
-<tspan x="10" y="394">  │ └── os-tmpdir@1.0.2 </tspan>
-<tspan x="10" y="410">  ├─┬ transform-filter@0.1.1 </tspan>
-<tspan x="10" y="426">  │ └─┬ multimatch@2.1.0 </tspan>
-<tspan x="10" y="442">  │   ├── array-differ@1.0.0 </tspan>
-<tspan x="10" y="458">  │   ├─┬ array-union@1.0.2 </tspan>
-<tspan x="10" y="474">  │   │ └── array-uniq@1.0.3 </tspan>
-<tspan x="10" y="490">  │   ├── arrify@1.0.1 </tspan>
-<tspan x="10" y="506">  │   └─┬ minimatch@3.0.3 </tspan>
-<tspan x="10" y="522">  │     └─┬ brace-expansion@1.1.6 </tspan>
-<tspan x="10" y="538">  │       ├── balanced-match@0.4.2 </tspan>
-<tspan x="10" y="554">  │       └── concat-map@0.0.1 </tspan>
-<tspan x="10" y="570">  └─┬ uglify-js@2.8.21 </tspan>
-<tspan x="10" y="586">    ├── uglify-to-browserify@1.0.2 </tspan>
-<tspan x="10" y="602">    └─┬ yargs@3.10.0 </tspan>
-<tspan x="10" y="618">      ├── camelcase@1.2.1 </tspan>
-<tspan x="10" y="634">      ├─┬ cliui@2.1.0 </tspan>
-<tspan x="10" y="650">      │ ├─┬ center-align@0.1.3 </tspan>
-<tspan x="10" y="666">      │ │ ├─┬ align-text@0.1.4 </tspan>
-<tspan x="10" y="682">      │ │ │ ├─┬ kind-of@3.1.0 </tspan>
-<tspan x="10" y="698">      │ │ │ │ └── is-buffer@1.1.5 </tspan>
-<tspan x="10" y="714">      │ │ │ ├── longest@1.0.1 </tspan>
-<tspan x="10" y="730">      │ │ │ └── repeat-string@1.6.1 </tspan>
-<tspan x="10" y="746">      │ │ └── lazy-cache@1.0.4 </tspan>
-<tspan x="10" y="762">      │ ├── right-align@0.1.3 </tspan>
-<tspan x="10" y="778">      │ └── wordwrap@0.0.2 </tspan>
-<tspan x="10" y="794">      ├── decamelize@1.2.0 </tspan>
-<tspan x="10" y="810">      └── window-size@0.1.0</tspan>
+<tspan x="10" y="26">7 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">├── UNMET PEER DEPENDENCY browserify@&gt;= 5</tspan>
+<tspan x="10" y="90">└─┬ minifyify@7.3.5 </tspan>
+<tspan x="10" y="106">  ├─┬ concat-stream@1.6.0 </tspan>
+<tspan x="10" y="122">  │ ├── inherits@2.0.3 </tspan>
+<tspan x="10" y="138">  │ ├─┬ readable-stream@2.2.9 </tspan>
+<tspan x="10" y="154">  │ │ ├── buffer-shims@1.0.0 </tspan>
+<tspan x="10" y="170">  │ │ ├── core-util-is@1.0.2 </tspan>
+<tspan x="10" y="186">  │ │ ├── isarray@1.0.0 </tspan>
+<tspan x="10" y="202">  │ │ ├── process-nextick-args@1.0.7 </tspan>
+<tspan x="10" y="218">  │ │ ├── string_decoder@1.0.0 </tspan>
+<tspan x="10" y="234">  │ │ └── util-deprecate@1.0.2 </tspan>
+<tspan x="10" y="250">  │ └── typedarray@0.0.6 </tspan>
+<tspan x="10" y="266">  ├── convert-source-map@1.5.0 </tspan>
+<tspan x="10" y="282">  ├── lodash.assign@4.2.0 </tspan>
+<tspan x="10" y="298">  ├── lodash.bind@4.2.1 </tspan>
+<tspan x="10" y="314">  ├── lodash.defaults@4.2.0 </tspan>
+<tspan x="10" y="330">  ├── lodash.foreach@4.5.0 </tspan>
+<tspan x="10" y="346">  ├─┬ mkdirp@0.5.1 </tspan>
+<tspan x="10" y="362">  │ └── minimist@0.0.8 </tspan>
+<tspan x="10" y="378">  ├── source-map@0.5.6 </tspan>
+<tspan x="10" y="394">  ├── through@2.3.8 </tspan>
+<tspan x="10" y="410">  ├─┬ tmp@0.0.28 </tspan>
+<tspan x="10" y="426">  │ └── os-tmpdir@1.0.2 </tspan>
+<tspan x="10" y="442">  ├─┬ transform-filter@0.1.1 </tspan>
+<tspan x="10" y="458">  │ └─┬ multimatch@2.1.0 </tspan>
+<tspan x="10" y="474">  │   ├── array-differ@1.0.0 </tspan>
+<tspan x="10" y="490">  │   ├─┬ array-union@1.0.2 </tspan>
+<tspan x="10" y="506">  │   │ └── array-uniq@1.0.3 </tspan>
+<tspan x="10" y="522">  │   ├── arrify@1.0.1 </tspan>
+<tspan x="10" y="538">  │   └─┬ minimatch@3.0.3 </tspan>
+<tspan x="10" y="554">  │     └─┬ brace-expansion@1.1.7 </tspan>
+<tspan x="10" y="570">  │       ├── balanced-match@0.4.2 </tspan>
+<tspan x="10" y="586">  │       └── concat-map@0.0.1 </tspan>
+<tspan x="10" y="602">  └─┬ uglify-js@2.8.22 </tspan>
+<tspan x="10" y="618">    ├── uglify-to-browserify@1.0.2 </tspan>
+<tspan x="10" y="634">    └─┬ yargs@3.10.0 </tspan>
+<tspan x="10" y="650">      ├── camelcase@1.2.1 </tspan>
+<tspan x="10" y="666">      ├─┬ cliui@2.1.0 </tspan>
+<tspan x="10" y="682">      │ ├─┬ center-align@0.1.3 </tspan>
+<tspan x="10" y="698">      │ │ ├─┬ align-text@0.1.4 </tspan>
+<tspan x="10" y="714">      │ │ │ ├─┬ kind-of@3.1.0 </tspan>
+<tspan x="10" y="730">      │ │ │ │ └── is-buffer@1.1.5 </tspan>
+<tspan x="10" y="746">      │ │ │ ├── longest@1.0.1 </tspan>
+<tspan x="10" y="762">      │ │ │ └── repeat-string@1.6.1 </tspan>
+<tspan x="10" y="778">      │ │ └── lazy-cache@1.0.4 </tspan>
+<tspan x="10" y="794">      │ ├── right-align@0.1.3 </tspan>
+<tspan x="10" y="810">      │ └── wordwrap@0.0.2 </tspan>
+<tspan x="10" y="826">      ├── decamelize@1.2.0 </tspan>
+<tspan x="10" y="842">      └── window-size@0.1.0</tspan>
 </text>
 </svg>
