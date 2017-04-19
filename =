@@ -33,7 +33,7 @@ npmdoc-minifyify@0.0.1 /home/travis/build/npmdoc/node-npmdoc-minifyify
   │ │ ├─┬ elliptic@6.4.0 
   │ │ │ ├── brorand@1.1.0 
   │ │ │ ├── hash.js@1.0.3 
-  │ │ │ ├── hmac-drbg@1.0.0 
+  │ │ │ ├── hmac-drbg@1.0.1 
   │ │ │ ├── minimalistic-assert@1.0.0 
   │ │ │ └── minimalistic-crypto-utils@1.0.1 
   │ │ └─┬ parse-asn1@5.1.0 
@@ -65,7 +65,8 @@ npmdoc-minifyify@0.0.1 /home/travis/build/npmdoc/node-npmdoc-minifyify
   ├── https-browserify@1.0.0 
   ├─┬ insert-module-globals@7.0.1 
   │ ├─┬ concat-stream@1.5.2 
-  │ │ └── readable-stream@2.0.6 
+  │ │ └─┬ readable-stream@2.0.6 
+  │ │   └── string_decoder@0.10.31 
   │ └─┬ lexical-scope@1.2.0 
   │   └── astw@2.2.0 
   ├─┬ JSONStream@1.3.1 
@@ -75,7 +76,8 @@ npmdoc-minifyify@0.0.1 /home/travis/build/npmdoc/node-npmdoc-minifyify
   │ └── stream-splicer@2.0.0 
   ├─┬ module-deps@4.1.1 
   │ ├─┬ concat-stream@1.5.2 
-  │ │ └── readable-stream@2.0.6 
+  │ │ └─┬ readable-stream@2.0.6 
+  │ │   └── string_decoder@0.10.31 
   │ ├── detective@4.5.0 
   │ └── stream-combiner2@1.1.1 
   ├── os-browserify@0.1.2 
@@ -100,6 +102,7 @@ npmdoc-minifyify@0.0.1 /home/travis/build/npmdoc/node-npmdoc-minifyify
   ├─┬ stream-http@2.7.0 
   │ ├── builtin-status-codes@3.0.0 
   │ └── to-arraybuffer@1.0.1 
+  ├── string_decoder@0.10.31 
   ├─┬ subarg@1.0.0 
   │ └── minimist@1.2.0 
   ├─┬ syntax-error@1.3.0 
